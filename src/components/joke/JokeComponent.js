@@ -2,9 +2,14 @@ import React from 'react';
 import Joker from "one-liner-joke";
 import './joke.css'
 
-const Joke = (props) => {
+const Joke = () => {
+    const title = 'Listen a joke';
+
     return (
-        <h3 className='joke'>{props.jokeTitle}: "{Joker.getRandomJoke().body}"</h3>
+        <div className="joke">
+            <span className="joke-title">{title}: </span>
+            <span className="joke-body">{Joker.getRandomJoke().body}</span>
+        </div>
     );
 };
 

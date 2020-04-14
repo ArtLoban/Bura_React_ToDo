@@ -4,3 +4,11 @@
     margin-top: 40px;
     font-size: 1.3rem;
 }
+
+.joke-title {
+    color: #bb475e;
+}
+
+.joke-body {
+    font-weight: 500;
+}
